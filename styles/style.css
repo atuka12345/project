@@ -1,0 +1,41 @@
+.red-text {
+    color:fuchsia;
+}
+
+
+.div-1{
+    /* display: inline; */
+    width: 65px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.div-1 {
+    background-color: khaki;
+}
+.div-2 {
+    background-color: indigo;
+}
+.div-3 {
+    background-color: green;
+}
+.color-white {
+    color: white;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+.div-2{
+    /* display: inline; */
+    width: 100px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+    .div-3{
+        /* display: inline; */
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
