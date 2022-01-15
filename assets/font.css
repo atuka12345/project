@@ -1,0 +1,6 @@
+@font-face {
+    font-family:'KA_LORTKIPANIDZE' ;
+    src: url('../assets/fonts/ka-lortkipanidze-webfont.woff')format('woff'),
+    url('../assets/fonts/ka-lortkipanidze-webfont.woff2')format('woff2')
+    ;
+}

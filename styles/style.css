@@ -39,3 +39,15 @@
         height: 100px;
         margin: 0 auto;
     }
+
+    h1 {font-family: 'Shadows Into Light', cursive;}
+h3 {font-family: 'KA_LORTKIPANIDZE';
+ font-size: medium;
+  /* */
+  cursor: pointer;
+}
+ 
+p {
+ font-size: larger;
+}
+ 
