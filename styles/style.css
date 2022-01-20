@@ -1,53 +1,121 @@
-.red-text {
-    color:fuchsia;
+/* header */
+header{
+    background-color: blue;
+    height: 75px;
+    align-items: center;
 }
-
-
-.div-1{
-    /* display: inline; */
-    width: 65px;
-    height: 30px;
-    margin: 0 auto;
+header .logo {
+    height: 60px;
+width: 60px;
 }
-
-.div-1 {
-    background-color: khaki;
-}
-.div-2 {
-    background-color: indigo;
-}
-.div-3 {
-    background-color: green;
-}
-.color-white {
+nav a {
     color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+header .container{
+    align-items: center;
+}
+nav{
+    width: calc(100% - 60px);
+    justify-content: space-between;
 }
 
-.d-inline-block {
-    display: inline-block;
+/*body*/
+body {
+    margin: 0%;
 }
-.div-2{
-    /* display: inline; */
-    width: 100px;
-    height: 32px;
-    margin: 0 auto;
+/* global styles*/
+.container {
+    width: 1200px;
+    margin: auto;
 }
+.d-flex {
+    display:flex
+    
+}
+/* auth */
+.auth-form-container{
+    width: 300px;
+height: 300px;
+border: 1px solid #ccc;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+.auth-form-container .class-text-label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group{
+margin-bottom: 15px;
+}
+.auth-form-container .text-input{
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.submit-button{
+display: block;
+width: 100%;
+height: 35px;
+border: 0;
+cursor: pointer;
+background-color: rgb(107, 107, 218);
+color: white;
+margin-bottom: 15px;
+}
+.reset-pass-link{
+    display: block;
+   text-align: center;
+    font-size: 12px;
 
-    .div-3{
-        /* display: inline; */
-        width: 100px;
-        height: 100px;
-        margin: 0 auto;
+}
+.body-container{
+    padding: 30px 0;
+}
+.img123{
+    height: 300px;
+    width: 300px;
+}
+.flex-container {
+    display: flex;
+    background-color:gray;
+     margin-top: 35px;
+    justify-content: space-between;  
+
+}
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+.barcelona{
+     color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 78px;
     }
+   .valletta{
+        color: black;
+        font-size: 30px;
+        margin-left: 650px;
+    }
+        
+        .tbilisi{
+            color: black;
+            margin-left: 1480px;
+            font-size: 30px;
+            
+        }
 
-    h1 {font-family: 'Shadows Into Light', cursive;}
-h3 {font-family: 'KA_LORTKIPANIDZE';
- font-size: medium;
-  /* */
-  cursor: pointer;
-}
- 
-p {
- font-size: larger;
-}
- 
+
+    
