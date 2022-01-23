@@ -3,6 +3,7 @@
 @import './body.css';
 @import './positions.css';
 @import './notification.css';
+@import './reg.css';
 
 .welcome-container{
     padding-block: 30px;
