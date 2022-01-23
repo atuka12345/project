@@ -1,0 +1,24 @@
+header {
+    background-color: blue;
+    height: 75px;
+    align-items: center;
+}
+header .logo {
+    height: 60px;
+width: 60px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+header .container{
+    align-items: center;
+}
+nav{
+    width: calc(100% - 60px);
+    justify-content: space-between;
+}

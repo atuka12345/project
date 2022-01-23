@@ -1,0 +1,35 @@
+@import './header.css';
+@import './auth.css';
+@import './body.css';
+@import './positions.css';
+@import './notification.css';
+
+.welcome-container{
+    padding-block: 30px;
+    background-color: rgb(44, 44, 50);
+}
+
+
+.welcome-container .container {
+display: grid;
+grid-template-columns: 1fr minmax(0, 2fr);
+}
+
+.welcome-container .img-prev {
+    width: 100%;
+}
+
+.welcome-container h1{
+    color: white;
+}
+
+.welcome-container h1 span{
+    font-weight: normal;
+}
+.welcome-container .container div:first-child {
+text-align: center;
+}
+
+.welcome-container .container p{
+    color: rgba(255, 255, 255,.6);
+}
