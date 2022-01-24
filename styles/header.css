@@ -22,3 +22,8 @@ nav{
     width: calc(100% - 60px);
     justify-content: space-between;
 }
+
+nav > div {
+    display: flex;
+    align-items: center;
+}
