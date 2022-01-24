@@ -17,7 +17,9 @@ grid-template-columns: 1fr minmax(0, 2fr);
 }
 
 .welcome-container .img-prev {
-    width: 100%;
+    width: 500px;
+    margin-left: 140px;
+    
 }
 
 .welcome-container h1{
