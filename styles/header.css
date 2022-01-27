@@ -6,6 +6,7 @@ header {
 header .logo {
     height: 60px;
 width: 60px;
+
 }
 nav a {
     color: white;
@@ -26,4 +27,5 @@ nav{
 nav > div {
     display: flex;
     align-items: center;
+    
 }

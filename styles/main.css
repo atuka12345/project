@@ -4,6 +4,8 @@
 @import './positions.css';
 @import './notification.css';
 @import './reg.css';
+@import './search\ bar.css';
+
 
 .welcome-container{
     padding-block: 30px;
@@ -43,6 +45,7 @@ text-align: center;
     display: grid;
     grid-template-columns: 5fr 1fr;
     height: 58px;
+   
 }
 .welcome-container h6{
     margin: 0;
