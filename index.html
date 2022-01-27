@@ -11,6 +11,24 @@
 </head>
 <body> 
 <header class="d-flex"> 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">შესახებ</a>
+        <a href="#">სერვისები</a>
+        <a href="#">კლიენტები</a>
+        <a href="#">კონტაქტები</a>
+      </div>
+       <span class="nav-span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; info</span>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+         
     <div class="container d-flex"> 
         <a href="index.html">
             <img class="logo" src="./logo.svg" alt="ლოგო">
@@ -40,6 +58,7 @@
 </header>
 
     <div class="notification-block">
+        
 <p>
     <a href="https://en.wikipedia.org/wiki/Eiffel_Tower" target="_blank"> visit link </a>
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -76,7 +95,7 @@
              </div>
          </div>
 <div class="features-container">
-<div class="container">
+<div class="container" style="cursor: pointer;"> 
     <div><i class="far fa-lightbulb"></i><div>intellisense</div></div>
     <div><i class="fas fa-bug"></i><div>debug</div></div>
     <div><i class="fas fa-code-branch"></i><div>built-in git</div></div>
