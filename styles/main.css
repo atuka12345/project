@@ -6,7 +6,7 @@
 @import './reg.css';
 @import './search\ bar.css';
 @import './side\ nav.css';
-
+@import './card.css';
 .welcome-container{
     padding-block: 30px;
     background-color: rgb(44, 44, 50);
@@ -134,3 +134,115 @@ margin: 0;
 .features-container .container > div:nth-child(4):hover i{
     color: orange;
 }
+.testimonials-section > div{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 15px;
+}
+.testimonials-section > div .arrow{
+    position: absolute;
+    font-size: 48px;
+    top: 80px;
+    cursor: pointer;
+}
+.testimonials-section > div .arrow.fa-arrow-left {
+    left: -50px;
+}
+
+.testimonials-section > div .arrow.fa-arrow-right {
+    right: -50px;
+}
+section {
+    padding-block: 60px;
+}
+section:nth-child(odd) {
+    background-color: rgb(245, 245, 245);
+}
+.info-section > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.info-section > div div:first-child{
+    width: 35%;
+}
+.info-section:nth-child(odd) > div div:first-child {
+    order: 2;
+}
+.info-section:nth-child(odd) > div div:last-child {
+    order: 1;
+}
+.external-langs h1{
+text-align: center;
+}
+.external-langs .d-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 15px;
+}
+.external-langs .external-link{
+    display: block;
+    color: dodgerblue;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.external-langs .btn{
+    display: flex;
+    background-color: dodgerblue;
+    text-decoration: none;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+justify-content: center;
+margin: auto;
+}
+.download-section .container{
+   
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    
+}
+.download-section .container .windows{
+  font-size: 100px;
+  margin-left: 150px;
+  display: block;
+}
+.download-section .container .windows-div .button{
+    display: flex;
+    background-color: dodgerblue;
+    text-decoration: none;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+justify-content: center;
+margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .download-section .container .windows-div .download{
+        margin: auto;
+    }
+    .download-section .container .windows-div .table1{
+       
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+   
+    text-align: left;
+    padding: 8px;
+    border-style: none
+     }
+     .download-section .container .windows-div .table1 a{
+         background-color: dodgerblue;
+         text-decoration: none;
+         color: white;
+     }
+
+            
+    

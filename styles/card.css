@@ -1,0 +1,29 @@
+.user-card {
+    display: grid;
+    grid-template-columns: 72px minmax(0, 1fr);
+    grid-column-gap: 15px;
+}
+.user-card .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}
+.user-card .text-container .user-name{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+}
+
+.user-card .text-container p{
+    margin: 0;
+}
+.user-card .text-container h6{
+    margin: 0;
+    font-size: 18px;
+}
+.user-card .text-container h6 span{
+    color: gray;
+    font-weight: normal;
+}
