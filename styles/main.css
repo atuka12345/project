@@ -243,6 +243,8 @@ td, th {
          text-decoration: none;
          color: white;
      }
-
+.info-section .container .big-img{
+    width: 400px;
+}
             
     
