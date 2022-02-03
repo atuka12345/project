@@ -246,5 +246,92 @@ td, th {
 .info-section .container .big-img{
     width: 400px;
 }
-            
-    
+
+.center{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 0;
+}
+.img8{
+    width: 400px;
+}
+
+.category-navigation-list {
+      flex-basis: 20%;
+    margin: 0;
+    padding: 140px 0 25px 200px;
+    list-style: none;
+   
+}
+
+.category-navigation-list a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-size: 1.2rem;     
+    border-left: 2px solid gray;
+   
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.category-navigation-list a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.d-flex-blog-body{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+     padding: 50px;
+
+}
+.card .card-img{
+  width:100px ;  
+  
+}
+.card {
+    width: 200px;
+
+}
+.img-container{
+    position: relative;
+}
+
+.card h3{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card p{
+    margin-top: 0;
+    height: 48px;
+    overflow: hidden;
+}
+.blog-container{
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.atag{
+    text-decoration: none;
+}
+.blog-container2{
+    margin-left: 650px;
+}
+.blog-container3{
+margin-left: 865px;
+margin-top: -196px;
+}
+.blog-container4{
+    margin-left: 865px;
+    margin-top: -394px
+}
+.blog-container5{
+    margin-left: 1080px;
+}
+.blog-container6{
+    margin-left: 1080px;
+    margin-top: -394px;
+}
