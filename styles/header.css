@@ -22,10 +22,15 @@ header .container{
 nav{
     width: calc(100% - 60px);
     justify-content: space-between;
+    display: flex;
 }
+
 
 nav > div {
     display: flex;
     align-items: center;
     
+}
+header .mobile {
+    display: none;
 }

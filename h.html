@@ -7,10 +7,15 @@
     <title>blog</title>
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/font.css">
+<link rel="stylesheet" href="./styles/responsive.css">
 </head>
 <body>
     <header class="d-flex"> 
+      
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">შესახებ</a>
@@ -42,12 +47,7 @@
         <a href="#">დახმარება</a> 
                </div>
                <div><div class="topnav">
-        <div class="search-container">
-          <form action="./reg.html">
-            <input type="text" placeholder="ძებნა..." name="zaqa">
-            <button type="submit"><i class="fas fa-search"></i></button>
-          </form>
-        </div>
+        
       </div>
             <a href="auth.html">ავტორიზაცია</a>
             <a href="reg.html">რეგისტაცია</a>
@@ -55,13 +55,14 @@
         </nav>
         
     </div>
+    
     </header>
 <div class="container-3">
-       <div>
+       <div class="div2">
             <div class="d-flex-blog-body">      
               <ul class="category-navigation-list">
                <li><a class="d-block" href="#">get started</a></li>
-             <li><a class="d-block" href="#">setup</a></li>
+               <li><a class="d-block" href="#">setup</a></li>
               <li><a class="d-block" href="#">user guide</a></li>
               <li><a class="d-block" href="#">languages</a></li>
               <li><a class="d-block" href="#">javascript</a></li>
@@ -70,6 +71,9 @@
                 <li><a class="d-block" href="#">java</a></li>
               <li><a class="d-block" href="#">azure</a></li>
                <li><a class="d-block" href="#">remote</a></li>
+               <li><a class="d-block" href="#">data </a></li>
+               <li><a class="d-block" href="#">container</a></li>
+               <li><a class="d-block" href="#">c++</a></li>
                 </ul> 
            </div>
        </div>
@@ -77,50 +81,181 @@
        <div>
            <div class="center">
               <h1>Getting Started</h1> 
-              <p>Visual Studio Code is a lightweight but powerful source code editor which runs on </p> 
-             <p> macOS and Linux. It comes with built-in support for JavaScript, TypeScript and </p> 
-               <p> Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, </p> 
-              <p>runtimes (such as .NET and Unity). Begin your journey with VS Code with th. </p> 
+              Visual Studio Code is a lightweight but powerful source code editor which runs on  
+              macOS and Linux. It comes with built-in support for JavaScript, TypeScript and  
+                Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#,  
+              runtimes (such as .NET and Unity). Begin your journey with VS Code with th. </p> 
              <h2>Visual Studio Code in Action</h2> 
-              <img class="img8" src="./efl.jpeg" alt=""> 
-              <h4>Top Extensions</h4> <p>Enable additional languages, themes, debugger.</p> 
-              <p> VS Code's growing community shares their secret sauce to impw</p>
-                <div class="java"> 
-                   <div>1</div>
-                   <div>2</div>
-                   <div>3</div>
-                   <div>4</div>
-                   <div>5</div>
-                   <div>6</div>
-                   <div>7</div>
-                   <div>8</div>
+            <div class="imgcon">  <img class="img8" src="./efl.jpeg" alt=""> </div>
+              <h2>Top Extensions</h2> <p>Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow. </p>
+                <div class="java" style="cursor: pointer;"> 
+                   <div><div class="card" style="box-shadow: 0px 5px 10px gray;">
+                    <div class="img-container">
+                        <img class="card-img" src="./Microsoft.VisualStudio.Services.Icons.Default.png" alt="ჩვენი პრიველი სტატია">
+                        <span><i class="fas fa-download"></i> 50.0m</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>python</h3>
+                        <p>ms-python</p>
+                        <p class="ptag"> IntelliSense (Pylance), Linting, Debugging (multi-...</p>
+                    </div>
                 </div>
+              </div>
+                   <div><div>
+                     <div class="card" style="box-shadow: 0px 5px 10px gray;">
+                    <div class="img-container">
+                        <img class="card-img" src="./jupiter.png" alt="ჩვენი პრიველი სტატია">
+                        <span><i class="fas fa-download"></i> 50.0m</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>jupyter</h3>
+                        <p>ms-toolsai</p>
+                        <p class="ptag">Jupyter notebook support, interactive...</p>
+                    </div>
+                </div>
+              </div></div>
+                   <div><div>
+                     <div class="card" style="box-shadow: 0px 5px 10px gray;">
+                    <div class="img-container">
+                        <img class="card-img" src="./cc.png" alt="ჩვენი პრიველი სტატია">
+                        <span><i class="fas fa-download"></i> 50.0m</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>c/c++</h3>
+                        <p>mc-VScode</p>
+                        <p class="ptag">C/C++ IntelliSense, debugging, and code browsing.</p>
+                    </div>
+                </div>
+              </div></div>
+                   <div><div>
+                     <div class="card" style="box-shadow: 0px 5px 10px gray;">
+                    <div class="img-container">
+                        <img class="card-img" src="./Microsoft.VisualStudio.Services.Icons.Default.png" alt="ჩვენი პრიველი სტატია">
+                        <span><i class="fas fa-download"></i> 50.0m</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Pylance</h3>
+                        <p>ms-python</p>
+                        <p class="ptag">A performant, feature-rich language server...</p>
+                    </div>
+                </div>
+              </div></div>
+                   <div><div>
+                     <div class="card" style="box-shadow: 0px 5px 10px gray;">
+                    <div class="img-container">
+                        <img class="card-img" src="./lop.png" alt="ჩვენი პრიველი სტატია">
+                        <span><i class="fas fa-download"></i> 50.0m</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>server</h3>
+                        <p>ritwickdey</p>
+                        <p class="ptag">Launch a development local...</p>
+                    </div>
+                </div>
+              </div></div>
+                   <div><div><div class="card" style="box-shadow: 0px 5px 10px gray;">
+                    <div class="img-container">
+                        <img class="card-img" src="./es.png" alt="ჩვენი პრიველი სტატია">
+                        <span><i class="fas fa-download"></i> 50.0m</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>ESlint</h3>
+                        <p>dbaeumer</p>
+                        <p class="ptag">Integrates ESLint JavaScript into VS...</p>
+                    </div>
+                </div>
+              </div></div>
+              <div><div><div class="card" style="box-shadow: 0px 5px 10px gray;">
+                <div class="img-container">
+                    <img class="card-img" src="./p.png" alt="ჩვენი პრიველი სტატია">
+                    <span><i class="fas fa-download"></i> 50.0m</span>
+                </div>
+                <div class="card-body">
+                    <h3>prettier</h3>
+                    <p>esbenp</p>
+                    <p class="ptag">Code formatter using prettier</p>
+                </div>
+            </div>
+          </div></div>
+          <div><div><div class="card" style="box-shadow: 0px 5px 10px gray;">
+            <div class="img-container">
+                <img class="card-img" src="./natura.png" alt="ჩვენი პრიველი სტატია">
+                <span><i class="fas fa-download"></i> 50.0m</span>
+            </div>
+            <div class="card-body">
+                <h3>visual</h3>
+                <p>vsual studio</p>
+                <p class="ptag">AI-assisted development</p>
+            </div>
+        </div>
+      </div></div>
+                </div>
+
+                <div class="pandh" style="cursor:pointer;">
+                <h2>first steps</h2>
+                <p>To get the most out of Visual Studio Code, start by reviewing a few introductory topics:p</p>
+
+                <p> <a href="">Intro Videos</a> - Begin your journey with VS Code through these introductory videos.</p>
+                  
+                <p> <a href=""> Setup</a> - Install VS Code for your platform and configure the tool set for your development needs.</p>
+                  
+               <p> <a href=""> User Interface</a> - Introduction to the basic UI, commands, and features of the VS Code editor.</p> 
+                  
+                <p> <a href=""> Settings</a> - Customize VS Code for how you like to work.</p>
+                  
+                <p> <a href=""> Languages</a> - Learn about VS Code's support for your favorite programming languages.</p>
+                  
+                <p> <a href=""> Node.js </a>- This tutorial gets you quickly running and debugging a Node.js web app.</p>
+                  
+                <p> <a href="">  Tips and Tricks </a>- Jump right in with Tips and Tricks to become a VS Code power user.</p>
+                  
+               <p> <a href=""> Azure </a> - VS Code is great for deploying your web applications to the cloud.</p>
+                  
+               <p> <a href="">  Extension API</a> - Learn how to write a VS Code extension.</p>
+                  
+              <p>  <a href="">  Why VS Code? </a>- Read about the design philosophy and architecture of VS Code.</p>
+                  <h2>keyboad shortcuts</h2>
+                  <p>Increase your productivity with VS Code's keyboard shortcuts.</p>
+
+                  <p> <a href=""> Keyboard Shortcut Reference Sheet</a> - Learn the commonly used keyboard shortcuts.</p>
+                    
+                <p> <a href="">  Keymap Extensions</a> - Change VS Code's keyboard shortcuts to match another editor.</p>
+                    
+                 <p><a href="">Customize Keyboard Shortcuts</a>  - Modify the default keyboard shortcuts.</p>
+                    
+                 <h2>Downloads</h2>
+                 <p><a href="">Download VS Code </a> - Quickly find the appropriate install for your platform (Windows, macOS and Linux)</p>
+                 <h2>privacy</h2>
+                 <p>By default, VS Code auto-updates to new versions, and collects usage data and crash report information. You may opt out of these defaults by disabling them as instructed below:</p>
+                 <p><a href="">How do I disable auto update?</a></p>
+                 <p><a href="">How do I disable crash reporting?</a></p>
+                 <p><a href="">How do I disable usage reporting?</a></p>
+                </div>
+                
            </div>
        </div>
 
     <div class="div3">
         <div class="d-flex-blog-body2">
               <ul class="category-navigation-list2">
-                <li><a class="d-block" href="#">get started</a></li>
-              <li><a class="d-block" href="#">setup</a></li>
-               <li><a class="d-block" href="#">user guide</a></li>
-               <li><a class="d-block" href="#">languages</a></li>
-               <li><a class="d-block" href="#">javascript</a></li>
-              <li><a class="d-block" href="#">TypeScript</a></li>
-               <li><a class="d-block" href="#">python</a></li>
-                 <li><a class="d-block" href="#">java</a></li>
-               <li><a class="d-block" href="#">azure</a></li>
-                <li><a class="d-block" href="#">remote</a></li>
+                <li><a class="d-block" href="#">getting started</a></li>
+                <li><a class="d-block" href="#">VS Code in action</a></li>
+              <li><a class="d-block" href="#">top extensions</a></li>
+               <li><a class="d-block" href="#">first steps</a></li>
+               <li><a class="d-block" href="#">keybord shortcuts</a></li>
+               <li><a class="d-block" href="#">downloads</a></li>
+              <li><a class="d-block" href="#">privacy</a></li>
+               <li><a class="d-block" href="#"><i class="fab fa-twitter"></i> tweet this link</a></li>
+              <li><a class="d-block" href="#"><i class="fas fa-rss"></i> subscribe</a></li>
+               <li><a class="d-block" href="#"><i class="fab fa-stack-overflow"></i> ask questions</a></li>
+                 <li><a class="d-block" href="#"><i class="fab fa-twitter"></i> follow @code</a></li>
+               <li><a class="d-block" href="#"><i class="fab fa-github"></i> request features</a></li>
+                <li><a class="d-block" href="#"><i class="fas fa-comments"></i> report issues</a></li>
+                <li><a class="d-block" href="#"><i class="fab fa-youtube"></i> watch videos</a></li>
                  </ul> 
          </div>
                  
      </div>
  </div>
-      
-
-     
-
-     
-
 </body>
 </html>

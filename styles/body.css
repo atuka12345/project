@@ -3,10 +3,26 @@ body {
 }
 /* global styles*/
 .container {
-    width: 1200px;
-    margin: auto;
+    width: 992px;
+    margin-inline: auto;
 }
 .d-flex {
     display:flex
     
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+@media screen and (max-width: 786px) {
+    .container {
+        width: 576px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        
+    }
 }

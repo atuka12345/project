@@ -19,9 +19,8 @@ grid-template-columns: 1fr minmax(0, 2fr);
 }
 
 .welcome-container .img-prev {
-    width: 500px;
-    margin-left: 140px;
-    
+    width: 100%;
+    margin-left: 50px;
 }
 
 .welcome-container h1{
@@ -44,8 +43,8 @@ text-align: center;
     color: white;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    height: 58px;
-   
+    height: 70px;
+ width: 360px;  
 }
 .welcome-container h6{
     margin: 0;
@@ -248,20 +247,24 @@ td, th {
 }
 
 .center{
-    text-align: center;
+   
     font-size: 1.4rem;
     padding-bottom: 0;
+    
 }
 .img8{
     width: 400px;
 }
 
 .category-navigation-list {
+    display: grid;
       flex-basis: 20%;
     margin: 0;
-    padding: 140px 0 25px 200px;
+    padding: 14px 0 25px 200px;
     list-style: none;
+    gap: 16px;
    
+    
 }
 
 .category-navigation-list a {
@@ -269,49 +272,29 @@ td, th {
     text-decoration: none;
     color: rgb(80, 80, 80);
     font-size: 1.2rem;     
-    border-left: 2px solid gray;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 18px;
     margin-left: 50px;
-}
+   border-left: 2px solid gray;
+}  
+
 
 .category-navigation-list a:hover {
-    text-decoration: underline;
+    text-decoration:underline;
     color: blue;
-}
+    }
 .d-flex-blog-body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
      padding: 50px;
-
-}
-.card .card-img{
-  width:100px ;  
-  
-}
-.card {
-    width: 200px;
-
-}
-.img-container{
-    position: relative;
 }
 
-.card h3{
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.card p{
-    margin-top: 0;
-    height: 48px;
-    overflow: hidden;
-}
 .container-3 {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    
 }
 .category-navigation-list2 a{
 padding: 5px 10px;
@@ -320,14 +303,16 @@ padding: 5px 10px;
     font-size: 1.2rem;     
     top: 0;
     right: 25px;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 50px;
 }
 .category-navigation-list2{
+    display: grid;
     flex-basis: 20%;
   margin: 0;
-  padding: 140px 0 25px 200px;
+  padding: 14px 0 25px 1px;
   list-style: none;
+  gap: 16px;
  }
  .d-flex-blog-body2 {
         position: -webkit-sticky;
@@ -338,8 +323,79 @@ padding: 5px 10px;
 }
 .java{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
     grid-gap: 10px;
-     
-     text-align: center;
+     grid-row-gap: 23px;
+     grid-column-gap: -300px;
+    text-align: center;
+    padding-top: 30px;
 }
+.category-navigation-list2 a:hover {
+    text-decoration:underline;
+    color: blue;
+    }
+ .imgcon{
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+ }
+ .center p{
+     font-size: 16px;
+ }
+
+.card-img{
+    width: 70px;
+    padding-top: 16px;
+}
+.img-container {
+    position: relative;
+}
+.img-container span {
+    position: absolute;
+    right: 5px;
+    bottom: -70px;
+    color: black;
+    font-size: 15px;
+}
+.card h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card-body {
+	padding: 10px 15px;
+}
+.card{
+    width: 190px;
+    height: 220px;
+}
+
+.card .card-body h3{
+    font-size: 16px;
+padding-right: 100px;
+
+}
+
+.card .card-body p{
+display: inline;
+color: gray;
+padding-right: 80px;
+font-size: 12px;
+
+}
+.java .card .card-body .ptag{
+    color: #767676;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 40px;
+  
+}
+.pandh h2{
+    padding-top: 50px;
+}
+ .pandh a:hov{
+    text-decoration:underline;
+    color: blue;
+ }
