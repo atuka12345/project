@@ -14,7 +14,23 @@
 </body>
 
 <header class="d-flex"> 
-
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">შესახებ</a>
+        <a href="#">სერვისები</a>
+        <a href="#">კლიენტები</a>
+        <a href="#">კონტაქტები</a>
+      </div>
+       <span class="nav-span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; info</span>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
     <div class="container d-flex"> 
         <a href="index.html">
             <img class="logo" src="./logo.svg" alt="ლოგო">

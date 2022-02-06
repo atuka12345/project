@@ -10,7 +10,25 @@
 </head>
 <body>
     <header class="d-flex"> 
-        <div class="containerd-flex"> 
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">შესახებ</a>
+            <a href="#">სერვისები</a>
+            <a href="#">კლიენტები</a>
+            <a href="#">კონტაქტები</a>
+          </div>
+           <span class="nav-span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; info</span>
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+             
+        <div class="container d-flex"> 
             <a href="index.html">
                 <img class="logo" src="./logo.svg" alt="ლოგო">
             </a>
@@ -31,8 +49,12 @@
         </nav>
         
     </div>
-    
+    <div class="mobile">
+          <a href="./index.html">მთავარი</a>
+           
+       </div>
     </header>
+    
     <div class="container body-container" >
     <div class="auth-form-container">
    <form action="" method="get">
