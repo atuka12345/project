@@ -40,14 +40,3 @@ padding-top: 50px;
    padding-top: 200px;
    margin-left: 740px;
 }
-/* mobile phones */
-@media screen and (max-width: 576px) {
-    .container {
-        width: 100%;
-        padding-inline: 15px;
-    }
-    .blog-container {
-        grid-column: 1 / span 4;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-}
