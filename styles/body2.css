@@ -24,8 +24,10 @@ p{
 }
 .wveriani{
     border-radius: 50%;
-    margin-left: 1000px;
-    margin-top: -360px;
+    margin-left: 800px;
+    margin-top: -300px;
+    max-width: 60rem;
+    min-height: auto;
   }
   .border{
       border-style:none;
@@ -36,6 +38,7 @@ p{
       height: 40px;
       border-radius: 4px;
       text-align: center;
+      
   }
 i{
     color:#FFFFFF;
@@ -57,13 +60,15 @@ margin-top: 100px;
 display: grid;
 gap: 10px;
 margin-left: 400px;
+
 }
 .grid-contain{
     display: grid;
      gap: 10px;
      margin-left: 940px;
      margin-top: -1400px;
-}
+   
+    }
 
 .div-conatiner{
     display: grid;
@@ -98,9 +103,9 @@ width: 350px;
      
 .cont{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 370px 370px 370px;
     text-align: center;
-    column-gap: -200px
+    justify-content: center ;
 }
 .cont .thing1{
     width: 491px;
@@ -113,6 +118,7 @@ width: 350px;
 }
 .contact{
     margin-left: 500px;
+  
 }
 .border1{
     border-style:none;
@@ -137,4 +143,15 @@ width: 350px;
     margin-left: 1500px;
     justify-content: space-between;
     
+}
+.container{
+    width: auto;
+height: auto;
+
+}
+.avatar{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    margin-left: 180px;
+    width: 80%;
 }

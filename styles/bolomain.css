@@ -3,40 +3,45 @@
 }
 .pandh{
     padding-top: 50px;
+    display: grid;
 }
 .img1{
 width: 100%;
 padding-top: 50px;
 }
-.info-section1 > div{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-.info-section1 > div div:first-child{
-    width: 35%;
-}
-.info-section1:nth-child(odd) > div div:last-child {
-    order: 1;
-}
-.info-section1:nth-child(odd) > div div:first-child {
-    order: 2;
-}
 
-.info-section1 .container .small-img{
-    width: 400px;
-    margin-left: 350px;
-    padding-top: 200px;
-    
-}
 .pandh1{
     padding-top: 150px;
 }
 .social1{
     padding-top: 150px;
-    margin-left: 300px
+    margin-left: 300px;
+    width: max-content 60rem;
 }
 .h1tag{
    padding-top: 200px;
    margin-left: 740px;
+}
+.info-section > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.info-section > div div:first-child{
+    width: 35%;
+}
+.info-section:nth-child(odd) > div div:first-child {
+    order: 2;
+}
+.info-section:nth-child(odd) > div div:last-child {
+    order: 1;
+}
+.small-img{
+    width: 400px;
+    padding-top: 200px;
+}
+.small1-img {
+    width: 400px;
+    padding-top: 200px;
+    margin-left: 300px;
 }
